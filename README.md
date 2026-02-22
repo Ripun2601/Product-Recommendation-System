@@ -1,6 +1,6 @@
 # Product-Recommendation-System
 
-## 📌 Overview
+## Overview
 The **Product Recommendation System** is a machine learning project designed to recommend relevant products to users based on their historical interactions. Because real-world user-item interactions are highly sparse, this project utilizes **Singular Value Decomposition (SVD)** for dimensionality reduction and **K-Means Clustering** to group similar users and products. 
 
 The project includes a robust exploratory data analysis (EDA) pipeline and an interactive web application built with **Streamlit** that allows real-time two-way recommendations:
@@ -9,7 +9,7 @@ The project includes a robust exploratory data analysis (EDA) pipeline and an in
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 The system is trained on an Amazon product ratings dataset (`rating_short.csv`).
 * **Total Interactions:** 78,245
 * **Unique Users:** 76,430
@@ -19,7 +19,7 @@ The system is trained on an Amazon product ratings dataset (`rating_short.csv`).
 
 ---
 
-## ✨ Key Features
+##  Key Features
 * **Exploratory Data Analysis (EDA):** Visualized rating distributions, identified most active users/products, and plotted sparsity heatmaps.
 * **Data Preprocessing:** Handled missing values, removed duplicate rows, and eliminated irrelevant features (like timestamps).
 * **Dimensionality Reduction:** Applied **SVD (Singular Value Decomposition)** to extract latent features for users and products to handle data sparsity.
@@ -38,7 +38,7 @@ The system is trained on an Amazon product ratings dataset (`rating_short.csv`).
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 📦 Product-Recommendation-System
  ┣ 📜 Product_Recommendation_System.ipynb       # Jupyter Notebook with EDA, Model Training, and Evaluation
