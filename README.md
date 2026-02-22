@@ -15,7 +15,7 @@ The system is trained on an Amazon product ratings dataset (`rating_short.csv`).
 * **Unique Users:** 76,430
 * **Unique Products:** 40,228
 * **Features:** `userid`, `productid`, `rating` (1-5 scale)
-* **Sparsity:** ~99.9975% (Highly sparse, requiring latent feature extraction).
+* **Sparsity:** Highly sparse, requiring latent feature extraction.
 
 ---
 
